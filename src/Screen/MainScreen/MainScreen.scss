@@ -1,0 +1,40 @@
+@import "../../Shared/constants.scss";
+
+main-screen {
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 30px 50px;
+    main-screen-title {
+        border: 1px solid black;
+
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+        grid-row-start: 1;
+        grid-row-end: 5;
+
+        margin:$big_three_box_margins;
+    }
+    main-screen-demonstration {
+        border: 1px solid black;
+
+        grid-column-start: 2;
+        grid-column-end: 5;
+
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+        margin:$big_three_box_margins;
+    }
+    main-screen-description {
+        border: 1px solid black;
+        
+        grid-column-start: 2;
+        grid-column-end: 5; 
+
+        margin:$big_three_box_margins;
+    }
+}
